@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Événements — ATAST CLUB ENIT</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="acceuil.css"> <!-- shared header + base styles -->
+  <link rel="stylesheet" href="event.css">
+</head>
+<body>
+
+<header class="site-header" role="banner">
+  <div class="container header-inner">
+    <div class="logo" aria-hidden="false">
+      <img src="images/logo_atast.png" alt="ATaST logo" class="logo-img">
+    </div>
+
+    <div class="brand">
+      <h1>ATAST CLUB ENIT</h1>
+      <p class="tagline">Club de Robotique • Innovation • Compétition</p>
+    </div>
+
+    <nav class="main-nav" aria-label="Navigation principale">
+      <a class="nav-link" href="acceuil.html"><i class="fas fa-home"></i><span>Accueil</span></a>
+      <a class="nav-link" href="board_members.html"><i class="fas fa-users"></i><span>Équipe</span></a>
+      <a class="nav-link" href="projets.html"><i class="fas fa-robot"></i><span>Projets</span></a>
+      <a class="nav-link" href="#"><i class="fas fa-calendar"></i><span>Événements</span></a>
+      <a class="nav-link" href="a_propos.html"><i class="fas fa-info-circle"></i><span>A propos</span></a>
+      <a class="nav-link cta" href="rejoindre.html"><i class="fas fa-user-plus"></i><span>Rejoindre</span></a>
+      <a class="nav-link login" href="login.html"><i class="fas fa-sign-in-alt" aria-hidden="true"></i><span>Connexion</span></a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-inner">
+    <h2>Nos Événements</h2>
+    <p>Des ateliers, conférences et compétitions tout au long de l’année pour stimuler l’innovation et la créativité.</p>
+  </div>
+</section>
+
+<main class="container">
+
+  <section class="upcoming">
+    <h2>Prochains événements</h2>
+    <div class="board">
+      <article class="member">
+        <div class="content">
+          <div class="role">Atelier</div>
+          <h3>Initiation Arduino</h3>
+          <p class="meta"><strong>Date :</strong> 20 Décembre · <strong>Heure :</strong> 14:00</p>
+          <p class="description">Introduction à la programmation Arduino et aux bases de l’électronique embarquée.</p>
+        </div>
+      </article>
+
+      <article class="member">
+        <div class="content">
+          <div class="role">Hackathon</div>
+          <h3>ATAST Winter Challenge</h3>
+          <p class="meta"><strong>Date :</strong> 10 Janvier · <strong>Heure :</strong> 09:00</p>
+          <p class="description">Compétition de robotique inter-universitaire : concevez, programmez et remportez !</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="past">
+    <h2>Événements passés</h2>
+    <div class="board">
+      <article class="member">
+        <div class="media"><img src="images/event_past1.jpg" alt="Workshop 2024"></div>
+        <div class="content">
+          <div class="role">Workshop</div>
+          <h3>Initiation ROS</h3>
+          <p class="description">Session pratique sur ROS 2, simulation Gazebo et interaction entre nodes.</p>
+        </div>
+      </article>
+
+      <article class="member">
+        <div class="media"><img src="images/event_past2.jpg" alt="Competition 2024"></div>
+        <div class="content">
+          <div class="role">Compétition</div>
+          <h3>ATAST Robotics Cup</h3>
+          <p class="description">Nos équipes ont brillé lors de la compétition nationale de robotique.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-left">
+      <img src="images/logo_atast.png" alt="ATaST logo" class="footer-logo">
+      <h4>ATAST CLUB ENIT</h4>
+      <p class="muted">Club de robotique • ENIT</p>
+    </div>
+    <div class="contact">
+      <h4><i class="fas fa-paper-plane"></i> Contact</h4>
+      <p><i class="fas fa-envelope"></i> <a href="mailto:atast.enit@gmail.com">atast.enit@gmail.com</a></p>
+    </div>
+    <nav class="footer-nav">
+      <h4><i class="fas fa-link"></i> Liens rapides</h4>
+      <a href="acceuil.html"><i class="fas fa-chevron-right"></i> Accueil</a>
+      <a href="board_members.html"><i class="fas fa-chevron-right"></i> Équipe</a>
+      <a href="projets.html"><i class="fas fa-chevron-right"></i> Projets</a>
+    </nav>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p>&copy; 2025 ATAST CLUB ENIT. Tous droits réservés.</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

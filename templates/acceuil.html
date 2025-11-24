@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Accueil — ATAST CLUB ENIT</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="acceuil.css"> <!-- ou style.css partagé -->
+</head>
+<body>
+
+<header class="site-header" role="banner">
+  <div class="container header-inner">
+    <div class="logo" aria-hidden="false">
+      <img src="images/logo_atast.png" alt="ATaST logo" class="logo-img">
+    </div>
+
+    <div class="brand">
+      <h1>ATAST CLUB ENIT</h1>
+      <p class="tagline">Club de Robotique • Innovation • Compétition</p>
+    </div>
+
+    <nav class="main-nav" aria-label="Navigation principale">
+      <a class="nav-link" href="#"><i class="fas fa-home"></i><span>Accueil</span></a>
+      <a class="nav-link" href="board_members.html"><i class="fas fa-users"></i><span>Équipe</span></a>
+      <a class="nav-link" href="projets.html"><i class="fas fa-robot"></i><span>Projets</span></a>
+      <a class="nav-link" href="event.html"><i class="fas fa-calendar"></i><span>Événements</span></a>
+      <a class="nav-link" href="a_propos.html"><i class="fas fa-info-circle"></i><span>A propos</span></a>
+      <a class="nav-link cta" href="rejoindre.html"><i class="fas fa-user-plus"></i><span>Rejoindre</span></a>
+      <a class="nav-link login" href="login.html"><i class="fas fa-sign-in-alt" aria-hidden="true"></i><span>Connexion</span></a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-inner">
+    <h2>Concevez. Construisez. Concourez.</h2>
+    <p>Nous sommes l'ATAST — club de technologie de l'ENIT. Ateliers, compétitions, projets réels et apprentissage collaboratif.</p>
+    <p style="margin-top:18px;">
+      <a class="nav-link cta" href="#"><i class="fas fa-play"></i> Découvrir nos projets</a>
+      <a class="nav-link" href="#events" style="margin-left:12px;"><i class="fas fa-calendar-check"></i> Prochains événements</a>
+    </p>
+  </div>
+</section>
+
+<main class="container">
+  <section class="highlights" aria-label="Points forts" style="margin:28px 0;">
+    <div class="board">
+      <article class="member">
+        <div class="media" style="height:140px;">
+          <img src="images/project_autonomous.jpg" alt="Robot autonome">
+        </div>
+        <div class="content">
+          <div class="role">Projet</div>
+          <h3>Robot autonome</h3>
+          <p class="description">Développement d’une plateforme autonome pour navigation et reconnaissance d’obstacles.</p>
+        </div>
+      </article>
+
+      <article class="member">
+        <div class="media" style="height:140px;">
+          <img src="images/workshop.jpg" alt="Atelier">
+        </div>
+        <div class="content">
+          <div class="role">Atelier</div>
+          <h3>Ateliers hebdomadaires</h3>
+          <p class="description">Sessions pratiques : mécanique, électronique, ROS, vision et IA embarquée.</p>
+        </div>
+      </article>
+
+      <article class="member">
+        <div class="media" style="height:140px;">
+          <img src="images/competition.jpg" alt="Compétition">
+        </div>
+        <div class="content">
+          <div class="role">Compétition</div>
+          <h3>Compétitions & Hackathons</h3>
+          <p class="description">Participation aux compétitions nationales et internationales — mise en pratique à haute intensité.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="events" aria-label="Prochains événements" style="margin:28px 0;">
+    <h2 style="color:var(--accent-2);margin-bottom:12px;">Prochains événements</h2>
+    <div class="board">
+      <article class="member">
+        <div class="content">
+          <div class="role">Présentation</div>
+          <h3>Kickoff Semestre — 10 Décembre</h3>
+          <p class="meta"><strong>Lieu :</strong> Amphithéâtre A · <strong>Heure :</strong> 18:00</p>
+          <p class="description">Rencontre d'introduction, planning des projets et inscriptions aux équipes.</p>
+        </div>
+      </article>
+
+      <article class="member">
+        <div class="content">
+          <div class="role">Atelier</div>
+          <h3>Initiation ROS — 18 Décembre</h3>
+          <p class="meta"><strong>Lieu :</strong> Laboratoire Info 3 · <strong>Heure :</strong> 14:00</p>
+          <p class="description">Session pratique sur ROS 2 : nodes, topics et simulation Gazebo.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section aria-label="Aperçu de l'équipe" style="margin:28px 0;">
+    <h2 style="color:var(--accent-2);margin-bottom:12px;">Notre équipe</h2>
+    <div class="board">
+      <article class="member">
+        <div class="media"><img src="images/OIP.webp" alt="Président"></div>
+        <div class="content">
+          <div class="role">Président</div>
+          <h3>Foulen Ben Foulen</h3>
+        </div>
+      </article>
+
+      <article class="member">
+        <div class="media"><img src="images/Event-Manager.jpg" alt="Vice-président"></div>
+        <div class="content">
+          <div class="role">Vice-président</div>
+          <h3>Foulen Ben Foulen</h3>
+        </div>
+      </article>
+    </div>
+
+    <p style="text-align:center;margin-top:18px;">
+      <a class="nav-link cta" href="board_members.html"><i class="fas fa-users"></i> Voir toute l'équipe</a>
+    </p>
+  </section>
+
+  <section aria-label="Rejoindre" style="margin:36px 0;text-align:center;">
+    <div class="join-cta">
+      <h3>Rejoignez ATAST</h3>
+      <p>Étudiant·e·s de tous niveaux sont bienvenu·e·s — apprenez, construisez et participez.</p>
+      <a class="nav-link cta" href="#" style="padding:10px 18px;"><i class="fas fa-user-plus"></i> Je veux rejoindre</a>
+    </div>
+  </section>
+  <section aria-label="Rejoindre" style="margin:36px 0;text-align:center;">
+    <div class="collab">
+      <h3>collaboration avec ATAST</h3>
+      <p>Étudiant·e·s de tous niveaux sont bienvenu·e·s — apprenez, construisez et participez.</p>
+      <a class="nav-link cta" href="#" style="padding:10px 18px;"><i class="fas fa-user-plus"></i> Je veux collaborer</a>
+    </div>
+  </section>  
+</main>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="container footer-grid">
+    <div class="footer-left">
+      <img src="images/logo_atast.png" alt="ATaST logo" class="footer-logo">
+      <h4>ATAST CLUB ENIT</h4>
+      <p class="muted">Club de robotique • ENIT</p>
+    </div>
+
+    <div class="contact">
+      <h4><i class="fas fa-paper-plane"></i> Contact</h4>
+      <p><i class="fas fa-phone"></i> <a href="tel:+99999999">99999999</a></p>
+      <p><i class="fas fa-envelope"></i> <a href="mailto:aaaaaaaa@gmail.com">aaaaaaaa@gmail.com</a></p>
+    </div>
+
+    <nav class="footer-nav">
+      <h4><i class="fas fa-link"></i> Liens rapides</h4>
+      <a href="acceuil.html"><i class="fas fa-chevron-right"></i> Accueil</a>
+      <a href="board_members.html"><i class="fas fa-chevron-right"></i> Équipe</a>
+      <a href="#"><i class="fas fa-chevron-right"></i> Projets</a>
+    </nav>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container">
+      <p>&copy; 2025 ATAST CLUB ENIT. Tous droits réservés.</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

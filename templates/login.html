@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Accueil — ATAST CLUB ENIT</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="acceuil.css"> <!-- ou style.css partagé -->
+  <link rel="stylesheet" href="login.css"> <!-- shared header + base styles -->
+</head>
+
+<body>
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <div class="logo" aria-hidden="false">
+        <img src="images/logo_atast.png" alt="ATaST logo" class="logo-img">
+      </div>
+
+      <div class="brand">
+        <h1>ATAST CLUB ENIT</h1>
+        <p class="tagline">Club de Robotique • Innovation • Compétition</p>
+      </div>
+
+      <nav class="main-nav" aria-label="Navigation principale">
+        <a class="nav-link" href="acceuil.html"><i class="fas fa-home"></i><span>Accueil</span></a>
+        <a class="nav-link" href="board_members.html"><i class="fas fa-users"></i><span>Équipe</span></a>
+        <a class="nav-link" href="projets.html"><i class="fas fa-robot"></i><span>Projets</span></a>
+        <a class="nav-link" href="event.html"><i class="fas fa-calendar"></i><span>Événements</span></a>
+        <a class="nav-link" href="a_propos.html"><i class="fas fa-info-circle"></i><span>A propos</span></a>
+        <a class="nav-link cta" href="rejoindre.html"><i class="fas fa-user-plus"></i><span>Rejoindre</span></a>
+        <a class="nav-link login" href="#"><i class="fas fa-sign-in-alt"
+            aria-hidden="true"></i><span>Connexion</span></a>
+      </nav>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="container hero-inner">
+      <label for="password">Mot de passe</label>
+      <input type="password" id="password" name="password" placeholder="••••••••" required>
+    </div>
+    <button type="submit" class="nav-link cta"><i class="fas fa-sign-in-alt"></i> Se connecter</button>
+
+    <p class="register-link">Pas encore membre ? <a href="rejoindre.html">Rejoignez-nous</a></p>
+    </form>
+  </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-grid">
+      <div class="footer-left">
+        <img src="images/logo_atast.png" alt="ATaST logo" class="footer-logo">
+        <h4>ATAST CLUB ENIT</h4>
+        <p class="muted">Club de robotique • ENIT</p>
+      </div>
+
+      <div class="contact">
+        <h4><i class="fas fa-paper-plane"></i> Contact</h4>
+        <p><i class="fas fa-phone"></i> <a href="tel:+99999999">99999999</a></p>
+        <p><i class="fas fa-envelope"></i> <a href="mailto:aaaaaaaa@gmail.com">aaaaaaaa@gmail.com</a></p>
+      </div>
+
+      <nav class="footer-nav">
+        <h4><i class="fas fa-link"></i> Liens rapides</h4>
+        <a href="acceuil.html"><i class="fas fa-chevron-right"></i> Accueil</a>
+        <a href="board_members.html"><i class="fas fa-chevron-right"></i> Équipe</a>
+        <a href="#"><i class="fas fa-chevron-right"></i> Projets</a>
+      </nav>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2025 ATAST CLUB ENIT. Tous droits réservés.</p>
+      </div>
+    </div>
+  </footer>
